@@ -19,7 +19,17 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">I Know that <span>Good Development</span> <br />means  <span>Good Business</span></h2>
-
+      <p className="p-text" style={{ marginTop: 10 }}>
+      Performance-driven and motivated Frontend Developer with 5+ years of extensive experience and
+       solid understanding of front-end and Back-end Technologies,   MVC frameworks,
+        Restful web services and Data Base designing. <br /> Strong knowledge in MERN Stack with 
+      vast experience in building Web Applications, used React.js for client side, Node.js/Express for
+       server side and MongoDB, MYSQL for database. <br /> Excellent in using React.js/Redux to build User Interface,
+       strong knowledge of state store, middleware, action creator, reducer and container.<br />
+       Working knowledge of jest and unit testing framework and Module bundler Rollup, 
+       Webpack. <br />A result-oriented professional with good communication, leadership, 
+       team management, analytical, co-ordination and problem solving skills.
+      </p>
        <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div

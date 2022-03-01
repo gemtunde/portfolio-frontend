@@ -106,8 +106,8 @@
     margin-left: 1rem;
   
     div {
-      width: 100px;
-      height: 100px;
+      width: 70px;
+      height: 70px;
       border-radius: 50%;
   
       background: var(--white-color);
@@ -123,14 +123,14 @@
     // circles with different height & width
   
     div:nth-child(1) {
-      width: 100px;
-      height: 100px;
+      width: 70px;
+      height: 70px;
     }
   
     div:nth-child(2) {
       margin: 1.75rem;
-      width: 150px;
-      height: 150px;
+      width: 70px;
+      height: 70px;
     }
   
     div:nth-child(3) {
@@ -175,9 +175,9 @@
     justify-content: flex-end;
     align-items: flex-end;
     position: relative;
-  
+    
     img {
-      width: 70%;
+      width: 80%;
       object-fit: contain;
       z-index: 1;
       border-radius: 50%;
@@ -189,7 +189,7 @@
       right: 0;
       bottom: 0;
       z-index: 0;
-      width: 100%;
+      width: 120%;
       height: 100%;
     }
   
